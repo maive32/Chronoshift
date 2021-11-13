@@ -1,0 +1,260 @@
+/* css */
+.nav ul {
+    justify-content: flex-end;
+    background: black;
+    height: 3em;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    line-height: 3em;
+    text-align: center;
+    width: auto;
+}
+header nav a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    justify-content: flex-end;
+    flex-direction: row;
+    background: #00A3FF;
+    color: white;
+}
+header a:hover {
+    background-color: #8CD6FF;
+    color: white;
+}
+header a.active {
+    background-color: white;
+    color: seagreen;
+}
+.button {
+    border: none;
+    color: black;
+    padding: 20px 25px;
+}
+.button1 {background: #FA7B7B; color: white;}
+.button2 {background: #FA7B7B; color: white; margin-left: 952.5px; margin-bottom: 20px;}
+.button3 {background: #00A3FF; color: white;}
+.pictures {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.pictures section {
+    width: auto;
+}
+.pictures1 {
+    display: flex;
+    justify-content: space-between;
+}
+.pictures1 section {
+    width: 30%;
+    display:block;
+}
+footer {
+    background-color: black;
+}
+.poster {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-blue {
+    width: auto;
+    height: 50px;
+    background-color: #8CD6FF;
+}
+.section-grey {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #E1CFD6;
+}
+.section-grey section {
+    width: 50%;
+}
+.solid {
+    border-style: solid; 
+    border-color: #FA7B7B;
+    margin:0px;
+}
+.travel {
+    width: 100%;
+}
+.orange-box {
+    width: 1600px;
+    height: auto;
+    background-color: #FFB830;
+    color: #276AEB;
+    margin: auto;
+}
+body {
+    margin: 0;
+}
+.circular_img1 {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.circular_img1 section {
+    width:30%;
+    margin:auto;
+}
+.circular_img1 img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+.circular_img2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.circular_img2 section {
+    width: 30%;
+    margin:auto;
+}
+.circular_img2 img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.Blue-background {
+    width: 1530px;
+    height: auto;
+    background-color: #00A3FF;
+    color: white;
+    margin:auto;
+}
+.box-img1 {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box-img1 section {
+    width:30%;
+    margin:auto;
+}
+.box-img2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.box-img2 section {
+    width: 30%;
+    margin:auto;
+}
+.light-blue-background {
+    width: auto;
+    height: auto;
+    background-color: #8CD6FF;
+    color: white;
+}
+.planning {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+    margin-bottom: 75px;
+}
+.planning section {
+    width:30%;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing:border-box;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.container1 {
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #00A3FF;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 235px;
+}
+
+.container label {
+    color: #FA7B7B;
+}
+
+.contact-wrap {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-wrap section {
+    width: 40%;
+    margin:auto;
+}
+
+input[type=checkout] {
+    background-color: #276AEB;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=checkout]:hover {
+    background-color: white;
+    color:black;
+}
+
+.Wrap1 {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+
+.Wrap1 section {
+    width: 45%;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color:white;
+}
+
+.centered {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    font-size:100px;
+}
+.widthL {
+    width: 100%;
+}
+
+
